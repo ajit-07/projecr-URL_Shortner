@@ -4,7 +4,6 @@ const validUrl = require('valid-url')
 const redis = require('redis')
 const { promisify } = require('util')
 const axios = require('axios')
-const { listeners } = require("process")
 
 //Connection to redis server==>
 
