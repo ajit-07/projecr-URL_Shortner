@@ -15,6 +15,6 @@ mongoose.connect("mongodb+srv://ajit-07:pzD85GscINrNEeKB@cluster0.mzumpor.mongod
 app.use('/',route);
 
 
-app.listen(process.env.PORT || 3000,()=>{
-    console.log("Backend server is running on port"+(process.env.PORT || 3000))
+app.listen(process.env.PORT || 3001,()=>{
+    console.log("Backend server is running on port"+" "+(process.env.PORT || 3001))
 });
